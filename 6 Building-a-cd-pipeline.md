@@ -60,7 +60,7 @@ Login into the Jenkins server and follow the below given steps:
 
 3. Under the pipeline section, complete the Script and the final code should look like as below
 
-
+```ruby
 pipeline {
     agent {
         label {
@@ -81,7 +81,7 @@ pipeline {
     }
 }
 
-
+```
 4. Finally save the job.
 
 
@@ -108,7 +108,7 @@ ogin into the Jenkins server and follow the below given steps:
 
 3. Under the pipeline section, modify the Script and the final code should look like as below
 
-
+```ruby
 pipeline {
     agent {
         label {
@@ -135,7 +135,7 @@ pipeline {
     }
 }
 
-
+```
 4. Finally save the job.
 
 
@@ -163,7 +163,7 @@ Login into the Jenkins server and follow the below given steps:
 
 3. Under the pipeline section, modify the Script and the final code should look like as below
 
-
+```ruby
 pipeline {
     agent {
         label {
@@ -190,7 +190,7 @@ pipeline {
         }
     }
 }
-
+```
 
 4. Finally save the job.
 
